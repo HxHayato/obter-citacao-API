@@ -61,10 +61,12 @@ body {
 }
 
 .autor {
+    width: 100%;
     color: var(--txt-color);
     font-size: 1.7rem;
     font-weight: 400;
-    align-self: end;
+    display: flex;
+    justify-content: end;
 }
 
 .obter-citacao {
